@@ -13,6 +13,7 @@ A console-based **Order Management System** built in C++ using core Data Structu
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
 - [What I Learned](#what-i-learned)
+- [Preview](#preview)
 
 ---
 
@@ -22,20 +23,20 @@ This project simulates a real-world food delivery backend system where an admini
 
 ---
 
-## 🔗 Data Structures Used
+## Data Structures Used
 
 | Structure | Used For |
 |-----------|----------|
-| **Linked List** | Main order storage |
-| **Queue** | Order processing pipeline |
-| **Stack** | Undo last action |
-| **Binary Search** | Fast order lookup by ID |
+| 🔗 **Linked List** | Main order storage |
+| 📋 **Queue** | Order processing pipeline |
+| 📚 **Stack** | Undo last action |
+| 🔍 **Binary Search** | Fast order lookup by ID |
 
 > Every data structure was implemented manually from scratch.
 
 ---
 
-## ✨ Features
+## Features
 
 - ➕ Add / Remove orders
 - 🔍 Search order by ID (Binary Search)
@@ -49,20 +50,20 @@ This project simulates a real-world food delivery backend system where an admini
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-├── main.cpp              # Entry point & menu logic
-├── Order.h / .cpp        # Order class
-├── Main_Storage.h / .cpp # Linked List storage
+├── main.cpp                   # Entry point & menu logic
+├── Order.h / .cpp             # Order class
+├── Main_Storage.h / .cpp      # Linked List storage
 ├── Order_Processing.h / .cpp  # Queue for processing
 ├── Undo_Feature.h / .cpp      # Stack for undo
-└── order.txt             # Persistent data file
+└── order.txt                  # Persistent data file
 ```
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### Requirements
 - C++17 or later
@@ -76,7 +77,7 @@ g++ main.cpp Order.cpp Main_Storage.cpp Order_Processing.cpp Undo_Feature.cpp -o
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 - Designing modular OOP systems in C++
 - Implementing Data Structures manually without STL
@@ -86,7 +87,7 @@ g++ main.cpp Order.cpp Main_Storage.cpp Order_Processing.cpp Undo_Feature.cpp -o
 
 ---
 
-## 📸 Preview
+## Preview
 
 ```
 ====================================================
